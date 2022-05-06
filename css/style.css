@@ -1,0 +1,88 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-size: larger;
+    background-color: rgb(255, 255, 255); 
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(255, 0, 38);
+    color: rgb(37, 34, 34);
+}
+
+.navbar .navbar-nav .nav-link:active{
+    background-color: rgb(194, 84, 84);
+    color: rgb(61, 21, 204);
+    font-weight: bold;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+.intro img{
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid rgb(181, 179, 179);
+    overflow: hidden;
+}
+
+.name{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.position{
+    font-size: 70px;
+    text-align: center;    
+}
+
+.location{
+    font-size: 65px;
+    text-align: center;   
+    color: rgb(3, 52, 246); 
+}
+
+.description{
+    font-size: 25px;
+    text-align: center;
+}
+
+@media(max-width:756px) {
+    .position{
+        font-size: 35px;
+        text-align: center;    
+    }
+    
+    .location{
+        font-size: 30px;
+        text-align: center;   
+        color: rgb(120, 22, 217); 
+    }
+
+    .intro img{
+        width: 400px;
+        border-radius: 50%;
+        border: 3px solid lightblue;
+        overflow: hidden;
+    }
+}
+
+.head{
+    background-color: rgb(253, 10, 42);
+}
+
+.bg-xx{
+    background-color: rgb(200, 24, 24);
+}
